@@ -1,0 +1,14 @@
+{
+    "name": "electron-demo",
+    "version": "1.0.0",
+    "main": "main.js",
+    "license": "MIT",
+    "dependencies": {
+        "asar": "^0.14.0",
+        "electron": "^1.7.10"
+    },
+    "scripts": {
+        "dev": "electron app",
+        "asar": "asar pack app app.asar"
+    }
+}
